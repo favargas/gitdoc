@@ -70,7 +70,7 @@
 
 ##### REPLACE LOCAL CHANGES:
 
-* git checkout --<filename>		_________//replaces the changes in your working tree with the last content in HEAD.
+* git checkout <filename>		_________//replaces the changes in your working tree with the last content in HEAD.
 * git fetch origin  			_________//to drop all your local changes and commits, fetch the latest history 
 * git reset --hard origin/master	_________//from the server and point your local master branch at it like this.
 
