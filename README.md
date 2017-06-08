@@ -21,6 +21,8 @@
 
 #### GIT:
 
+##### MASTER:
+
 * git init  //if you didn't clone the repo
 
 * git clone https://github.com/favargas/hello
@@ -31,6 +33,23 @@
 * git commit -m " comments for the commit "
 * git push origin master
 * git pull origin master
+
+##### BRANCHES:
+
+* git checkout -b mybranch  //new branch
+* git checkout master       //switch to master
+* git push origin mybranch  //push branch to repo, to make it avilable to others
+* git branch -d mybranch    //delete branch
+
+* git show		//show changes 
+* git branch		//show branches
+
+
+##### UPDATE & MERGE
+
+* git pull		//update local repo to newest commit
+* git merge <branch>	//to merge another branch into your active branch (e.g. master)
+
 
 > keep adding...
 
