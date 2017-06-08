@@ -1,8 +1,5 @@
 # Important Documentation:
 
-> cambio feature_x branch
-> cambio mybranch
-
 
 * Learning [MarkDown](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 * Learning [MarkDown Articles](https://help.github.com/articles)
@@ -36,19 +33,40 @@
 
 ##### BRANCHES:
 
-* git checkout -b mybranch  //new branch
-* git checkout master       //switch to master
-* git push origin mybranch  //push branch to repo, to make it avilable to others
-* git branch -d mybranch    //delete branch
+* git checkout -b mybranch  //new branch.
+* git checkout master       //switch to master.
+* git push origin mybranch  //push branch to repo, to make it avilable to others.
+* git branch -d mybranch    //delete branch.
 
-* git show		//show changes 
-* git branch		//show branches
+* git show		//show changes. 
+* git branch		//show branches.
 
 
-##### UPDATE & MERGE
+##### UPDATE & MERGE:
 
-* git pull		//update local repo to newest commit
-* git merge <branch>	//to merge another branch into your active branch (e.g. master)
+* git pull		//update local repo to the newest commit, to fetch and merge remote changes.
+* git merge <branch>	//to merge another branch into your active branch (e.g. master).
+
+* git add <filename>	//in case of any conflict.
+
+* git diff <source_branch> <target_branch> 	//preview changes before merging.
+
+##### TAGGING:
+
+* git tag 1.0.0 1b2e1d63ff	//for software releases. create a new tag named 1.0.0, the 1b2e1d63ff stands for the first 10 characters of the commit id.
+
+
+##### LOG:
+
+* git log
+* git log --author=bob
+
+
+##### REPLACE LOCAL CHANGES:
+
+* git checkout -- <filename>		//replaces the changes in your working tree with the last content in HEAD.
+* git fetch origin  			//to drop all your local changes and commits, fetch the latest history 
+* git reset --hard origin/master	//from the server and point your local master branch at it like this.
 
 
 > keep adding...
@@ -72,6 +90,7 @@ Add this file to user home directory to avoid credentials
 
 ```go
 $ ls ~/.netrc 
+
 /home/favargas/.netrc
 
 [favargas@gbmft460 test]$ ls
