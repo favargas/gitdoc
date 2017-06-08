@@ -20,7 +20,7 @@
 
 ##### MASTER:
 
-* git init  //if you didn't clone the repo
+* git init  _________//if you didn't clone the repo
 
 * git clone https://github.com/favargas/hello
 
@@ -33,27 +33,33 @@
 
 ##### BRANCHES:
 
-* git checkout -b mybranch  //new branch.
-* git checkout master       //switch to master.
-* git push origin mybranch  //push branch to repo, to make it avilable to others.
-* git branch -d mybranch    //delete branch.
+* git checkout -b mybranch  _________//new branch.
+* git checkout master       _________//switch to master.
+* git push origin mybranch  _________//push branch to repo, to make it avilable to others.
+* git branch -d mybranch    _________//delete branch from local.
+* git push origin :mybranch	_________//delete branch from remote.
 
-* git show		//show changes. 
-* git branch		//show branches.
+* git show		_________//show changes. 
+* git branch		_________//show branches.
+* git branch -a
+* git branch -r
+
+* git fetch -p = git pull -p  _________//then remote branches will be pruned.
+
 
 
 ##### UPDATE & MERGE:
 
-* git pull		//update local repo to the newest commit, to fetch and merge remote changes.
-* git merge <branch>	//to merge another branch into your active branch (e.g. master).
+* git pull		_________//update local repo to the newest commit, to fetch and merge remote changes.
+* git merge <branch>	_________//to merge another branch into your active branch (e.g. master).
 
-* git add <filename>	//in case of any conflict.
+* git add <filename>	_________//in case of any conflict.
 
-* git diff <source_branch> <target_branch> 	//preview changes before merging.
+* git diff <source_branch> <target_branch> 	_________//preview changes before merging.
 
 ##### TAGGING:
 
-* git tag 1.0.0 1b2e1d63ff	//for software releases. create a new tag named 1.0.0, the 1b2e1d63ff stands for the first 10 characters of the commit id.
+* git tag 1.0.0 1b2e1d63ff	_________//for software releases. create a new tag named 1.0.0, the 1b2e1d63ff stands for the first 10 characters of the commit id.
 
 
 ##### LOG:
@@ -64,9 +70,9 @@
 
 ##### REPLACE LOCAL CHANGES:
 
-* git checkout -- <filename>		//replaces the changes in your working tree with the last content in HEAD.
-* git fetch origin  			//to drop all your local changes and commits, fetch the latest history 
-* git reset --hard origin/master	//from the server and point your local master branch at it like this.
+* git checkout -- <filename>		_________//replaces the changes in your working tree with the last content in HEAD.
+* git fetch origin  			_________//to drop all your local changes and commits, fetch the latest history 
+* git reset --hard origin/master	_________//from the server and point your local master branch at it like this.
 
 
 > keep adding...
