@@ -114,7 +114,7 @@ mytest.go  README.md
 
 machine github.com
 login favargas 
-password thinkPad900 
+password password1 
 ```
 
 
