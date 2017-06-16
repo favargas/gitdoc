@@ -75,7 +75,11 @@
 
 * git log
 * git log --author=bob
-
+* git remote set-url origin https://github.com/favargas/gitdoc
+* mv hellogit gitdoc
+'''
+[favargas@gbmft460 hellogit]$ 
+'''
 
 ##### REPLACE LOCAL CHANGES:
 
