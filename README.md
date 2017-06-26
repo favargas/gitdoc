@@ -9,6 +9,8 @@
 ### Commands:
 
 #### GO:
+* Go Lang [golang.org](https://golang.org/)
+* Learn Go Code [Go Code](https://golang.org/doc/code.html)
 
 * go install
 * $GOPATH/bin/hello
