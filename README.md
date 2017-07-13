@@ -42,6 +42,13 @@
 * git push origin master
 * git pull origin master
 
+* git pull origin master __________//to merge origin and remote
+
+* git remote add origin >"remote repository URL"
+* git remote -v
+* git pussh origin master
+
+
 ##### BRANCHES:
 
 * git checkout -b mybranch  _________//new branch.
