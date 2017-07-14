@@ -48,6 +48,13 @@
 * git remote -v
 * git pussh origin master
 
+* git rm --cached installers/jdk-8u131-linux-x64.rpm
+* git rm installers/jdk-8u131-linux-x64.rpm
+* git checkout
+* git reset HEAD installers/jdk-8u131-linux-x64.rpm __________//rollback
+
+
+
 
 ##### BRANCHES:
 
