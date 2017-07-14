@@ -53,6 +53,20 @@
 * git checkout
 * git reset HEAD installers/jdk-8u131-linux-x64.rpm __________//rollback
 
+* git show
+* git rm -r --cached .
+* git add .
+* git commit -m "fixed untracked files"
+
+
+* Push ignored and deleted files [push-ignored-deleted](https://stackoverflow.com/questions/33466466/git-still-trying-to-push-ignored-and-deleted-file)
+* Purging a file from repository's history [filter-bransh](https://help.github.com/articles/removing-sensitive-data-from-a-repository/)
+
+```
+git filter-branch --force --index-filter \
+'git rm --cached --ignore-unmatch installers/jdk-8u131-linux-x64.rpm' \
+--prune-empty --tag-name-filter cat -- --all
+```
 
 
 
