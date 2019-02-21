@@ -227,4 +227,25 @@ Visit https://help.github.com/articles/getting-started-with-writing-and-formatti
 
 ## **END** ##
 
+[favargas@host src]$ ls
+
+bitbucket.org  github.com  gopkg.in
+
+[favargas@host src]$ pwd
+
+/opt/godev/workspace/go/src
+
+[favargas@host src]$
+
+
+[favargas@host gitdoc]$ pwd
+
+/opt/godev/workspace/go/src/github.com/favargas/gitdoc
+
+[favargas@host gitdoc]$ ls
+hellogit.go  README.md
+
+[favargas@host gitdoc]$ 
+
+
  
