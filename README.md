@@ -19,13 +19,6 @@
 
 #### Bitbucket.org 
 
-* IVORY [bitbucket.org](https://bitbucket.org/gbmnet/ivory)
-* https://favargas@bitbucket.org/gbmnet/ivory.git
-
-
-
-
-
 
 #### GIT and github.com:
 
@@ -33,7 +26,7 @@
 
 * git init  _________//if you didn't clone the repo
 
-* git clone https://github.com/favargas/hello
+* git clone https://github.com/user/hello
 
 * git log
 * git status
@@ -105,10 +98,10 @@ git filter-branch --force --index-filter \
 
 * git log
 * git log --author=bob
-* git remote set-url origin https://github.com/favargas/gitdoc
+* git remote set-url origin https://github.com/user/gitdoc
 * mv hellogit gitdoc
 '''
-[favargas@gbmft460 hellogit]$ 
+
 '''
 
 ##### REPLACE LOCAL CHANGES:
@@ -121,131 +114,8 @@ git filter-branch --force --index-filter \
 > keep adding...
 
 
-### Cofig files:
-
-#### ./git/config 
-
-Add bellow lines to especify the repo
-```    
-[remote "origin"]
-    url = https://github.com/favargas/hellogit
-    fetch = +refs/heads/*:refs/remotes/origin/*
-```
-
-
-#### .netrc 
-
-Add this file to user home directory to avoid credentials
-
-```go
-$ ls ~/.netrc 
-
-/home/favargas/.netrc
-
-[favargas@gbmft460 test]$ ls
-mytest.go  README.md
-[favargas@gbmft460 test]$ cat ~/.netrc 
-
-machine github.com
-login favargas 
-password password1 
-```
-
-
-### Push output:
-
-```ruby
-$ git push origin master
-Counting objects: 3, done.
-Delta compression using up to 4 threads.
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 362 bytes | 0 bytes/s, done.
-Total 3 (delta 0), reused 0 (delta 0)
-To https://github.com/favargas/test
-   277882a..f5d4194  master -> master
-$
-```
-
-
-### **HELP**
-
-1. Make my changes
-    1. Fix bug
-    2. Improve formatting
-        - Make the headings bigger
-
-
-- [x] Finish my changes
-- [ ] Push my commits to GitHub
-- [ ] Open a pull request
-
-
-@github.XX/support.XX What do you think about these updates? Just enter the @organization/team-name and all members of that team will get subscribed to the issue.
-
-@octocat :+1: This PR looks great - it's ready to merge! :shipit:
-
-
-Let's rename \*our-new-project\* to \*our-old-project\*.
-
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-
-| Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
-
-
-
-| Command | Description |
-| --- | --- |
-| `git status` | List all *new or modified* files |
-| `git diff` | Show file differences that **haven't been** staged |
-
-
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
-
-
-| Name     | Character |
-| ---      | ---       |
-| Backtick | `         |
-| Pipe     | \|        |
-
-
-Visit https://github.com
-Visit https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/
-
-
-
 
 ## **END** ##
-
-[favargas@host src]$ ls
-
-bitbucket.org  github.com  gopkg.in
-
-[favargas@host src]$ pwd
-
-/opt/godev/workspace/go/src
-
-[favargas@host src]$
-
-
-[favargas@host gitdoc]$ pwd
-
-/opt/godev/workspace/go/src/github.com/favargas/gitdoc
-
-[favargas@host gitdoc]$ ls
-hellogit.go  README.md
-
-[favargas@host gitdoc]$ 
 
 
  
