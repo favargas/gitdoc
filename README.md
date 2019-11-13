@@ -43,6 +43,9 @@
 
 * git rm --cached installers/jdk-8u131-linux-x64.rpm
 * git rm installers/jdk-8u131-linux-x64.rpm
+
+* git commit --amend -CHEAD
+
 * git checkout
 * git reset HEAD installers/jdk-8u131-linux-x64.rpm __________//rollback
 
