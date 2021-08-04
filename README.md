@@ -113,6 +113,8 @@ git filter-branch --force --index-filter \
 * git fetch origin  			_________//to drop all your local changes and commits, fetch the latest history 
 * git reset --hard origin/master	_________//from the server and point your local master branch at it like this.
 
+ 
+* git config --global credential.helper store  _________//The storage represents a single %USERPROFILE%\.git-credentials
 
 > keep adding...
 
