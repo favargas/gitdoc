@@ -134,7 +134,11 @@ git filter-branch --force --index-filter \
    $ git push --mirror https://github.com/USER/REPO.git
    # Pushes the mirror to the new repository on GitHub.com
    ```
-
+4. Delete external repo
+   ```
+   cd ..
+   rm -rf REPO.git
+   ```
 
 
 ## **END** ##
