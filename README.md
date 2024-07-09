@@ -119,6 +119,23 @@ git filter-branch --force --index-filter \
 > keep adding...
 
 
+##### Import an external Git repo:
+
+1. Create a new repo:
+   
+2. Cone external
+   ```
+   $ git clone --bare https://external-host.com/EXTUSER/REPO.git
+   # Makes a bare clone of the external repository in a local directory
+   ```
+3. Push to new repo:
+   ```
+   $ cd REPO.git
+   $ git push --mirror https://github.com/USER/REPO.git
+   # Pushes the mirror to the new repository on GitHub.com
+   ```
+
+
 
 ## **END** ##
 
