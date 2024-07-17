@@ -141,6 +141,19 @@ git filter-branch --force --index-filter \
    ```
 
 
+##### rename file:
+
+git mv app.py myApp.py
+git status
+
+cp app.txt app1.txt
+git rm app.txt
+git add app1.txt
+git status
+git add *
+git commit -m ""
+
+
 ## **END** ##
 
 
