@@ -142,7 +142,7 @@ git filter-branch --force --index-filter \
 
 
 ##### rename file:
-
+```
 git mv app.py myApp.py
 git status
 
@@ -152,6 +152,7 @@ git add app1.txt
 git status
 git add *
 git commit -m ""
+```
 
 
 ## **END** ##
