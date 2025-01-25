@@ -92,6 +92,11 @@ git filter-branch --force --index-filter \
 
 * git diff <source_branch> <target_branch> 	_________//preview changes before merging.
 
+* git checkout master #
+* git pull # update local master from remote master
+* git checkout <your_branch>
+git merge master # solve merge conflicts if you have`
+
 ##### TAGGING:
 
 * git tag 1.0.0 1b2e1d63ff	_________//for software releases. create a new tag named 1.0.0, the 1b2e1d63ff stands for the first 10 characters of the commit id.
