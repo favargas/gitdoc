@@ -95,7 +95,7 @@ git filter-branch --force --index-filter \
 * git checkout master #
 * git pull # update local master from remote master
 * git checkout <your_branch>
-git merge master # solve merge conflicts if you have`
+* git merge master # solve merge conflicts if you have`
 
 ##### TAGGING:
 
