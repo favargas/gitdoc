@@ -162,6 +162,7 @@ git commit -m ""
 ##### TOKEN AND CREDENTIALS:
 
 https://www.squash.io/how-to-authenticate-git-push-with-github-using-a-token/
+
 https://stackoverflow.com/questions/6565357/git-push-requires-username-and-password
 
 
@@ -177,6 +178,7 @@ git config --global credential.helper 'cache --timeout 7200'
 ---
 
 <REMOTE_URL> = https://<TOKEN>@github.com/<username>/<repository>.git
+
 git remote set-url origin <REMOTE_URL>
 
 
