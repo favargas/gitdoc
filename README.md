@@ -159,6 +159,27 @@ git add *
 git commit -m ""
 ```
 
+##### TOKEN AND CREDENTIALS:
+
+https://www.squash.io/how-to-authenticate-git-push-with-github-using-a-token/
+https://stackoverflow.com/questions/6565357/git-push-requires-username-and-password
+
+
+git config credential.helper store
+git push https://github.com/owner/repo.git
+
+Username for 'https://github.com': <USERNAME>
+Password for 'https://USERNAME@github.com': <PASSWORD>
+
+git config --global credential.helper store
+git config --global credential.helper 'cache --timeout 7200'
+
+---
+
+<REMOTE_URL> = https://<TOKEN>@github.com/<username>/<repository>.git
+git remote set-url origin <REMOTE_URL>
+
+
 
 ## **END** ##
 
