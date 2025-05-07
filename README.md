@@ -191,7 +191,12 @@ Note: Use HEAD~N to go back to N number of previous commits. (i.e. 3, 4) Always 
 
 To commit only one file
 
-git commit -m "gitignore add " /mypc/gbm/CajaAnde/cda-git/cda-ocp/.gitignore 
+git commit -m "gitignore add " /mypc/gbm/CajaAnde/cda-git/cda-ocp/.gitignore
+
+
+You can of course also remove multiple files at once from the Staging Area:
+
+git restore --staged *.css
 
 ```
 
