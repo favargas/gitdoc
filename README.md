@@ -180,6 +180,21 @@ git config --global credential.helper 'cache --timeout 7200'
 git remote set-url origin <REMOTE_URL>
 ```
 
+##### TOKEN AND CREDENTIALS:
+```
+To removed the last commit using:
+
+git reset --soft HEAD~1
+I then excluded the file from the commit.
+
+Note: Use HEAD~N to go back to N number of previous commits. (i.e. 3, 4) Always use the --soft switch to maintain changes in the folder
+
+To commit only one file
+
+git commit -m "gitignore add " /mypc/gbm/CajaAnde/cda-git/cda-ocp/.gitignore 
+
+```
+
 
 ## **END** ##
 
