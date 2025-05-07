@@ -180,7 +180,7 @@ git config --global credential.helper 'cache --timeout 7200'
 git remote set-url origin <REMOTE_URL>
 ```
 
-##### TOKEN AND CREDENTIALS:
+##### REMOVE COMMITS:
 ```
 To removed the last commit using:
 
